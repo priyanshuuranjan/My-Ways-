@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineCamera } from "react-icons/ai";
+import { GrAttachment } from "react-icons/gr";
 import "./Dashboard.css";
 
 const Card = () => {
@@ -7,9 +9,14 @@ const Card = () => {
       <div className="left-section">
         <div className="chat-room-header">
           <h3>Chat Room</h3>
-          <i className="camera-icon"></i>
+          <i className="camera-icon">
+            <AiOutlineCamera />
+          </i>
         </div>
         <div className="message-header">
+          <i className="attachments">
+            <GrAttachment />
+          </i>
           <input type="text" placeholder="Write a message" />
         </div>
       </div>

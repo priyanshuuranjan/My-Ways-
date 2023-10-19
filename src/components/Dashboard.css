@@ -1,77 +1,81 @@
 .card {
     display: flex;
-    border: 1px solid #ccc;
+    border: 10px solid rgb(224, 220, 220); /* Change the border color to black and adjust thickness if needed */
     width: 900px;
     height: 400px;
-    margin: 0 auto; 
-    margin-top:200px;
-  }
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 13px;
   
-  .left-section {
-    flex: 40%;
-    border-right: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-    background-color: #f0f0f0;
-  }
-  
-  .chat-room-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid rgb(70, 64, 64);
-  }
-  
-  .camera-icon {
-    font-size: 24px;
-    margin-left: 10px; 
-  }
-  
-  .message-header {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end; 
-    align-items:end;
-    margin-left: 40px;
-    padding: 10px;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 0;
-  }
-  
-  .right-section {
-    flex: 60%;
-    padding: 20px;
-    margin-top: -40px;
-  }
-  
-  .task-board {
-    display: flex;
-  
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .task-board-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px;
-   
+}
 
-  }
-  
-  .task-board {
-    /* Styling for the task board content */
-  }
-  
-  .task-category {
-    /* Styling for the task categories */
-  }
+.left-section {
+  flex: 40%;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  border-radius:14px;
+}
+
+.chat-room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid rgb(70, 64, 64);
+}
+
+.camera-icon {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.message-header {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-left: 40px;
+  padding: 10px;
+}
+.attachments {
+  margin-left: -40px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.right-section {
+  flex: 60%;
+  padding: 20px;
+  margin-top: -40px;
+}
+
+.task-board {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task-board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.task-board {
+  /* Styling for the task board content */
+}
+
+.task-category {
+  /* Styling for the task categories */
+}
