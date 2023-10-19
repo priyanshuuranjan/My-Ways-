@@ -14,9 +14,10 @@ const Card = () => {
         </div>
       </div>
       <div className="right-section">
-        <div className="">
+        <div className="task-board-header">
           <h4>Task Board</h4>
-          <div className="task-board"></div>
+        </div>
+        <div className="task-board">
           <div className="task-category">To Do</div>
           <div className="task-category">In Progress</div>
           <div className="task-category">Done</div>
