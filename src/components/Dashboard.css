@@ -1,54 +1,46 @@
 .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.left-section {
+    border: 1px solid #ccc;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top:  150px;
+  }
+  
+  .left-section {
     flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-}
+  }
+  
+  .chat-room-header {
+   margin:0;
+   
 
-.heading {
-    margin: 0;
-}
-
-.button {
-    margin-top: 10px;
-}
-
-.right-section {
+  }
+  
+  .camera-icon {
+    /* Styling for the camera icon */
+  }
+  
+  .message-header {
+   
+  }
+  
+  .right-section {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.task-board {
-    border: 1px solid #ccc;
     padding: 20px;
-    text-align: center;
-}
-
-.task-list {
+  }
+  
+  .task-board {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-.todo-list,
-.in-progress-list,
-.done-list {
-    flex: 1;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px;
-    text-align: center;
-}
+  }
+  
+  .task-category {
+    /* Styling for the task categories */
+  }
+  
