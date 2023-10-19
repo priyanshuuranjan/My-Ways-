@@ -3,9 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .left-section {
+}
+
+.left-section {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -14,42 +14,41 @@
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-  }
-  
-  .heading {
+}
+
+.heading {
     margin: 0;
-  }
-  
-  .button {
+}
+
+.button {
     margin-top: 10px;
-  }
-  
-  .right-section {
+}
+
+.right-section {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-  }
-  
-  .task-board {
+}
+
+.task-board {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-  }
-  
-  .task-list {
+}
+
+.task-list {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .todo-list,
-  .in-progress-list,
-  .done-list {
+}
+
+.todo-list,
+.in-progress-list,
+.done-list {
     flex: 1;
     border: 1px solid #ccc;
     padding: 10px;
     margin: 5px;
     text-align: center;
-  }
-  
+}
