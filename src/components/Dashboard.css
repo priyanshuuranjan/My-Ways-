@@ -1,8 +1,8 @@
 .card {
     display: flex;
     border: 1px solid #ccc;
-    width: 800px;
-    height: 600px;
+    width: 900px;
+    height: 400px;
     margin: 0 auto; 
     margin-top:200px;
   }
