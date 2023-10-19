@@ -10,7 +10,7 @@ const Card = () => {
           <i className="camera-icon"></i>
         </div>
         <div className="message-header">
-        <input type="text" placeholder="Write  a message" />
+        <input type="text" placeholder="Write a message" />
         </div>
       </div>
       <div className="right-section">
